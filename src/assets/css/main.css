@@ -1,0 +1,88 @@
+#nav{
+    min-height: 70px;
+}
+.logo {
+    width: 50px;
+    height: 30px;
+}
+
+.bs-container {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.search-input{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(24, 24, 173);
+    width: 60%;
+    height: 40px;
+}
+
+.search-input:focus {
+    border-color: blue;
+}
+
+.article-link{
+    text-decoration: none;
+}
+
+.article-link:hover{
+    text-decoration: underline;
+}
+
+.article-title{
+    height: 50px;
+    max-height: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.article-description{
+    height: 80px;
+}
+
+.article-card:hover{
+    cursor: pointer;
+}
+
+.settings-icon{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+
+.settings-icon>i{
+    font-size: 5em;
+}
+
+.settings-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.form-table{
+    width: 75%;
+}
+
+.form-table tr{
+    height: 20px;
+}
+
+.form-table .cell-title{
+    width: 30%;
+}
+
+#formSubmitBtn{
+    background-color: #11468F;
+    color: white;
+    border-radius: 5px;
+}
+
+#formSubmitBtn:hover{
+    background-color: #226ace;
+}

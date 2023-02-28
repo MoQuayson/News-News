@@ -1,0 +1,47 @@
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-card{
+    width: 430px;
+    margin: auto;
+    border: 0 !important;
+}
+
+input.form-control{
+    background-color: white;
+}
+
+.form-link{
+    text-decoration: none;
+    color:#11468F;
+}
+
+.form-link:hover{
+    text-decoration: underline;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+#authSubmitBtn{
+    width: 100%;
+    background-color: #11468F;
+    color: white;
+    border-radius: 5px;
+}
+
+#authSubmitBtn:hover{
+    background-color: #226ace;
+}
+
+.logo {
+    width: 80px;
+    height: 30px;
+}
