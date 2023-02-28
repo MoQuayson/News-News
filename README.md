@@ -37,7 +37,7 @@ Open http://127.0.0.1:3000 to view it in your browser.
 
 ## Screenshots
 
-![App Screenshot](https://github.com/MoQuayson/News-News-Api/blob/master/screenshots/feeds.png)
+![App Screenshot](https://github.com/MoQuayson/News-News/blob/master/screenshots/feeds.png)
 
 ![App Screenshot](https://github.com/MoQuayson/News-News/blob/master/screenshots/search.png)
 
