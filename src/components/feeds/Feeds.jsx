@@ -345,7 +345,7 @@ const MenuSection =(props)=>{
                 <div className="col-md-4 mb-3">
 
                 <div className="btn-group shadow-sm" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" className="btn-check" value={'all'} name="btnradio" id="btnradio1" autoComplete="off"  defaultChecked={checked}/>
+                    <input type="radio" className="btn-check" value={'all'} name="btnradio" id="btnradio1" autoComplete="off"  defaultChecked={checked} onClick={(e)=>{handleFeedsSwitch(e.target.value)}}/>
                     <label className="btn btn-outline-primary" htmlFor="btnradio1">All Feeds</label>
 
                     <input type="radio" className="btn-check" value={'pers'} name="btnradio" id="btnradio2" autoComplete="off" onClick={(e)=>{handleFeedsSwitch(e.target.value)}}/>

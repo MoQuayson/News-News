@@ -48,8 +48,11 @@ export const CsrfField=()=>{
 
 export const TextTruncate=(props)=>{
     const {text,truncateValue} = props;
-
-    if(text.length > truncateValue)
+    if(text == null)
+    {
+        return '';
+    }
+    else if(text.length > truncateValue)
     {
         return text.slice(0, truncateValue - 3)// + "...";
     }
@@ -93,7 +96,7 @@ export const TopBarNav=(props)=>{
                                 className="bi bi-person-gear me-1"></i>User Settings</a>
                             </li>
                             <li>
-                                <a className="dropdown-item" href="#"><i
+                                <a className="dropdown-item" href="/auth/sign-out"><i
                                 className="bi bi-box-arrow-right me-1"></i>Sign-out</a>
                             </li>
                         </ul>
