@@ -5,7 +5,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copy the package.json and package-lock.json files to the container
-COPY package*.json ./
+COPY package.json .
 
 # Install the dependencies
 RUN npm install
@@ -14,10 +14,10 @@ RUN npm install
 COPY . .
 
 # Build the app
-RUN npm run build
+#RUN npm run build
 
 # Set the environment variable to production
-ENV NODE_ENV=production
+#ENV NODE_ENV=production
 
 # Expose port 3000
 EXPOSE 3000
